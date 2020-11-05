@@ -1,0 +1,33 @@
+.header {
+	background: #333;
+	color: #ddd;
+	height: 75px;
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.navLinks {
+	height: 75px;
+	width: 50vw;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	list-style: none;
+}
+
+.logo {
+	display: inline;
+	font-size: 2rem;
+	margin-left: 1rem;
+}
+
+.navItem a {
+	display: inline-block;
+	padding: 10px 15px;
+	font-size: 1.5rem;
+	font-weight: 700;
+	text-decoration: none;
+	color: white;
+}
