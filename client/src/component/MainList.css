@@ -1,7 +1,19 @@
 .projects {
-	color: red;
+	height: 1000px;
+	background-color: rgb(201, 201, 201);
 }
 
-.projects .project-title {
-	color: blue;
+.projects ul {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+}
+
+.test {
+	background-color: rgb(255, 255, 245);
+
+	border: 2px solid green;
+	margin: 1rem;
+	height: 200px;
+	width: 500px;
+	list-style: none;
 }

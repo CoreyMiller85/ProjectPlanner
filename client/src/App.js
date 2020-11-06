@@ -51,11 +51,3 @@ class App extends Component {
 }
 
 export default App;
-
-{
-	/* <Form
-	formValue={this.state.formValue}
-	handleFormInput={(e) => this.handleFormInput(e)}
-	handleSubmit={(e) => this.handleSubmit(e)}
-/> */
-}

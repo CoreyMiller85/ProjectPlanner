@@ -1,9 +1,11 @@
 const mongoose = require("mongoose");
 const creds = require("./user");
+const { config } = require("dotenv");
 
+config();
 mongoose
 	.connect(
-		`mongodb+srv://Cjmiller:dang@cluster0.fr7qc.mongodb.net/homeTasks?retryWrites=true&w=majority`,
+		`mongodb+srv://${process.env.DB_USER}:${process.env.DB_PASS}@cluster0.fr7qc.mongodb.net/homeTasks?retryWrites=true&w=majority`,
 		{ useNewUrlParser: true }
 	)
 	.catch((e) => {

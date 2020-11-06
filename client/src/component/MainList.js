@@ -8,7 +8,7 @@ export default function MainList(props) {
 			<ul>
 				{props.list.map((item) => {
 					return (
-						<div>
+						<div className='test'>
 							<ListItem
 								key={item._id}
 								name={item.title}
